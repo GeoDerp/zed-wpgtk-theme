@@ -10,11 +10,31 @@ Make sure you have [wpgtk](https://github.com/deviantfero/wpgtk) and [Zed](https
 
 ### From Zed Extensions
 
-Search for **wpgtk** in Zed's built-in extension manager:
+Search for **wpgtk** in Zed's built-in extension manager and install the extension:
 
 ```
 Zed > Extensions > Search "wpgtk"
 ```
+
+After installing the extension, you still need to register the wpgtk template and apply a wpgtk color scheme before Zed can load the theme:
+
+1. Add the theme as a wpgtk template:
+
+   ```bash
+   wpg -ta ~/.local/share/zed/extensions/wpgtk-theme/themes/wpgtk.json
+   ```
+
+2. Apply a wpgtk color scheme:
+
+   ```bash
+   wpg -m
+   ```
+
+3. Select the theme in Zed:
+
+   ```
+   Zed > (Ctrl+Shift+P) > theme selector: toggle > wpgtk-dark
+   ```
 
 ### Manual Installation
 
