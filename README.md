@@ -2,6 +2,10 @@
 
 A [wpgtk](https://github.com/deviantfero/wpgtk) theme for [Zed IDE](https://zed.dev/).
 
+</br>
+
+![example](example.png)
+
 Inspired by [vscode-wpgtk-theme](https://github.com/GeoDerp/vscode-wpgtk-theme).
 
 ## Installation
